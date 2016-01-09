@@ -33,11 +33,11 @@ Once enabled, the component can be used in your code as follows:
 
 ```php
 class SomeController extends AppController{
-	public function doSomething() {
+  public function doSomething() {
 
     $this->SlackWebhook->send('Great news, click <http://www.google.com|here> for details.');
 
-	}
+  }
 }
 ```
 The method returns a HttpSocket request's response information.
